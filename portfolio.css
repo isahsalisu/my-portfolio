@@ -10,6 +10,18 @@ body {
     height: 100%;
     background-color: lightseagreen;
 }
+.contact {
+ padding:40px;
+
+}
+
+ #contact a {
+    text-decoration: none;
+    color: #555;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+}
 
 .content-wrap {
     max-width: 800px;
@@ -23,7 +35,7 @@ body {
 }
 
 .education {
-    background-image: url("educa.jpg");
+    background-image: url("images/educa.jpg");
     background-size: cover;
     background-position: top right;
     padding-bottom: 100px;
@@ -77,6 +89,14 @@ h2 {
     margin: 10px;
 }
 
+.mail {
+
+    color: #555;
+    font-family: arial, sans-serif;
+    margin: 10px;
+    text-decoration: none;
+}
+
 header,
 main,
 nav,
@@ -111,7 +131,7 @@ figcaption {
  }
 
 .img1 {
-   background-image: url("salis2.jpg");
+   background-image: url("images/salis2.jpg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: 30%;
@@ -168,7 +188,7 @@ nav a:hover {
 }
 
 .project1 {
-    background-image: url("02-portfolio-2.jpg");
+    background-image: url("images/02-portfolio-2.jpg");
     background-size: cover;
     background-position: top right;
     padding-bottom: 0;
